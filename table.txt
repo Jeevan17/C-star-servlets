@@ -1,0 +1,7 @@
+//javac Registration.java -d ..\WEB-INF\classes -cp c:\apache-tomcat-8.5.12\lib\servlet-api.jar
+
+to create Registration table:
+create table registration(name varchar2(50) NOT NULL,Phno number(11) NOT NULL,clgname varchar2(100) NOT NULL, regno number(5) NOT NULL, score number(3) DEFAULT 0,primary key(phno,regno));
+
+create ques_ans table
+ques_ans (ques,op1,op2,op3,op4,ans)

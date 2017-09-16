@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+.main-text>img{
+	float:left;
+	padding-left:90px;
+}
+.main-text{
+	margin: auto;
+	font-size:90px;
+	padding-right:100px;
+	border-bottom:0.5px solid #ccc;
+	font-family: 'Lato', sans-serif;
+	color:#05A8AA;
+	text-align:center;
+}
+
+.form-content,.main-content{
+	padding:0px 100px;
+	font-size:23px;
+	color:#888;
+	font-family: 'Lato', sans-serif;
+	text-decoration:none;
+}
+.form-content{
+	line-height:60px;
+	font-size:30px;
+	margin-top:50px;
+}
+
+.box1,.box2,.box3,.box{
+	border: 1px solid #05A8AA;
+	border-radius:5px;
+	width:500px;
+	height:35px;
+	
+	font-family: 'Lato', sans-serif;
+	font-weight:100;
+	font-style:italic;
+	font-size:20px;
+	
+	padding-left:20px;
+}
+
+.box1{
+	margin-left:196px;
+}
+.box2{
+	margin-left:151px;
+}
+.box3{
+	margin-left:92px;
+}
+
+.log_btn{
+	margin-top:30px;
+	float:right;
+	font-size:20px;
+	border: 1px solid #05A8AA;
+	border-radius:10px;
+	color:#05A8AA;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;	
+}
+
+.reg_btn,.sub_btn{
+	
+	border: 1px solid #05A8AA;
+	font-family: 'Lato', sans-serif;
+	border-radius:100px;
+	color:#05A8AA;
+	font-weight:bold;
+	padding:15px 60px;
+	text-decoration:none;
+}
+
+.sub_btn{
+	margin-top:40px;
+	font-size:25px;
+	font-family: 'Lato', sans-serif;
+	background:white;
+}
+.log_btn:hover,.sub_btn:hover,.reg_btn:hover{
+	background:#05A8AA;
+	color:white;
+}
+
+.list_ques{
+	margin:20px 400px 0px 100px;
+}
+
+.question_content>ul{
+	list-style-image: url('');
+}
+
+.question_login{
+	float:left;
+}
+
+.options_login{
+	float:right;
+}
+
+.question_content{
+	margin-left:30px;
+	margin-top:10px;
+	letter-spacing:1px;
+	color:black;
+	font-size:25px;
+}
+
+.question{
+	font-family: 'Lato', sans-serif;
+	margin-right:505px;
+	background:#ccc;
+	padding-left:10px;
+	border-radius:5px;
+	color:purple;
+}
+
+.opt_content{
+	margin-top:5px;
+}
+
+.login_content{
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	margin-top:100px;
+	color:#05A8AA;
+}
+.log_text{
+	margin:10px;
+	width:400px;
+	height:50px;
+}
